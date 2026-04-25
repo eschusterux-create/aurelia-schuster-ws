@@ -1,0 +1,28 @@
+:root {
+  --header-divider: #d9d9d9;
+  --header-text: #1f1f1f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--header-text);
+  background: #fff;
+}
+
+.header-bar {
+  border-bottom: 1px solid var(--header-divider);
+  padding: 1.1rem 1.5rem;
+}
+
+.brand {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.15rem, 2.3vw, 1.5rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
